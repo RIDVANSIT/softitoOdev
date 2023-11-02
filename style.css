@@ -1,0 +1,38 @@
+/* Butonlar */
+.button {
+  background-color: #330779;
+  color: #fff;
+  font-size: 16px;
+  font-family: Arial;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #111;
+}
+
+/* Diğer öğeler */
+.title {
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.input {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+/* Butonların kenarlarına animasyon efekti eklemek için */
+.button:hover {
+  box-shadow: 0 0 10px 2px #015c45;
+}
